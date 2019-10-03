@@ -4,7 +4,7 @@ Because bash is the future
 Tests default credentials on SSH and RDP servers at ISUCDCs. pulls down blue team flags on ssh servers as well.
 
 ## Usage
-./autopwn
+./autopwn.sh
 
 there's no switches or input files yet so it has credentials/servernames/flag locations hard coded in.
 
