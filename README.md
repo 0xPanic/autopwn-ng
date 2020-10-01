@@ -3,6 +3,8 @@ Because bash is the future
 
 Tests default credentials on SSH and RDP servers at ISUCDCs. pulls down blue team flags on ssh servers as well.
 
+requires sshpass and xfreerdp being installed
+
 ## Usage
 ./autopwn.sh
 
