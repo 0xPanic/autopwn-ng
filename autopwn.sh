@@ -9,9 +9,9 @@
 #6. webserver hosting chimeIn is running and the IP is set
 tput setaf 196
 echo "Battlecruiser operational"
-sleep .5
+sleep 1
 echo "Yomato Cannon online"
-sleep .5
+sleep 1
 tput sgr0
 
 for i in {1,2}; do
