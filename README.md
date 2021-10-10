@@ -7,6 +7,7 @@ dependencies are sshpass and xfreerdp
 
 ## Usage
 ./autopwn.sh
+
 comments at the top of the script explain what is needed to get the environment all set
 there's no switches or input files yet so it has credentials/servernames/flag locations hard coded in.
 
