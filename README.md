@@ -12,5 +12,6 @@ there's no switches or input files yet so it has credentials/servernames/flag lo
 
 ## TODO
 	- possibly script some windows commands (probably over SMB/WinRM and just gonna hope)
-	- make RDP multiprocess like SSH is
+	- use cdc user if root doesn't work
+	- integration with some C2
 	- scrape iseage for hostnames and auto capture flags
